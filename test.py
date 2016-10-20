@@ -35,4 +35,4 @@ def RunCompare(problem):
         diff = SingleRun('{0}/main.py'.format(problem), input, output)
         print('diff: {0}'.format(diff))
 
-RunCompare('template2')
+RunCompare('Towers')
